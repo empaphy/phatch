@@ -1,0 +1,21 @@
+{
+    "name": "empaphy/phatch",
+    "description": "A collection of fundamental components for writing PHP code.",
+    "license": "MIT",
+    "require": {
+        "php": ">=8.2"
+    },
+    "require-dev": {
+        "pestphp/pest": "^3"
+    },
+    "autoload": {
+        "psr-4": {
+            "empaphy\\phatch\\": "src/"
+        }
+    },
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    }
+}
